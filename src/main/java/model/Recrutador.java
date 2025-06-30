@@ -16,5 +16,5 @@ public class Recrutador {
 
     @NotNull(message = "Empresa é obrigatório")
     @Column(nullable=false)
-    String empresa;
+    private String empresa;
 }
