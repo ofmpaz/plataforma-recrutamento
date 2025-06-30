@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class Cantidatura {
+public class Candidatura {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
