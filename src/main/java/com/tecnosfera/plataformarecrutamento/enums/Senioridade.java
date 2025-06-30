@@ -1,4 +1,4 @@
-package model;
+package com.tecnosfera.plataformarecrutamento.enums;
 
 public enum Senioridade {
     JUNIOR("Júnior"),

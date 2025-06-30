@@ -1,5 +1,6 @@
 package model;
 
+import com.tecnosfera.plataformarecrutamento.enums.Senioridade;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -26,4 +27,8 @@ public class Candidato {
     @NotNull(message = "Nome da país é obrigatório")
     @Column(nullable = false)
     private String pais;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private Senioridade senioridade;
 }
