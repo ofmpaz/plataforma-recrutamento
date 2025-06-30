@@ -1,7 +1,5 @@
 package com.tecnosfera.plataformarecrutamento.enums;
 
-import model.Recrutador;
-
 public enum StatusCandidatura {
     APROVADO("Aprovado"),
     REPROVADO("Reprovado"),

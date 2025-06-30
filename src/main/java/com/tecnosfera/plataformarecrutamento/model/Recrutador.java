@@ -1,4 +1,4 @@
-package model;
+package com.tecnosfera.plataformarecrutamento.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;

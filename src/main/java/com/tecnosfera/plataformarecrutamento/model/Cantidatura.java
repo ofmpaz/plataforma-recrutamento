@@ -1,4 +1,4 @@
-package model;
+package com.tecnosfera.plataformarecrutamento.model;
 
 import com.tecnosfera.plataformarecrutamento.enums.StatusCandidatura;
 import jakarta.persistence.*;
