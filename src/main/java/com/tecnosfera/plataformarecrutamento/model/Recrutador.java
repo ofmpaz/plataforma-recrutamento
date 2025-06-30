@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "TB_RECRUTADOR")
-public class Recrutador {
+public class Recrutador extends Usuario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
